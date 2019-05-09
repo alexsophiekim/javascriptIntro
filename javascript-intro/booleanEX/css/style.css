@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.blue{
+  color: #3b65da !important;
+}
+body{
+
+}
+.row{
+  content: "";
+  clear: both;
+  display: block;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container .navBar{
+  font-size: 30px;
+}
+.container .status{
+  font-size: 30px;
+}
+.container ul li{
+  font-size: 20px;
+  list-style: none;
+}
+.container #lightSwitch{
+  color: #fe1e66;
+}
+.container .navList{
+  display: none;
+}
+
+
+.container button{
+  display: flex;
+  position: absolute;
+  top: 20
+  left: 50%;
+  background-color: #5d32cb;
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
